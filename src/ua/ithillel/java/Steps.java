@@ -21,6 +21,7 @@ public class Steps {
         if (client.age >= 18) {
             System.out.println("Возраст клиента : " + client.age);
             System.out.println("Клиенту есть 18 лет.");
+           if (client.age != 18) {
             System.out.println("Клиенту нет 18 лет,приходите позже");
 
             if (client.sumMoney >= car.cost) {
