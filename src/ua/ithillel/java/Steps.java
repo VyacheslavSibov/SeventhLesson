@@ -21,6 +21,8 @@ public class Steps {
         if (client.age >= 18) {
             System.out.println("Возраст клиента : " + client.age);
             System.out.println("Клиенту есть 18 лет.");
+            System.out.println("Клиенту нет 18 лет,приходите позже");
+
             if (client.sumMoney >= car.cost) {
                 System.out.println("У клиента сумма :" + client.sumMoney + "А нужная сумма:" + car.cost);
             } else {
@@ -37,14 +39,12 @@ public class Steps {
                     System.out.println("Кузов автомобиля : " + car.body);
                     System.out.println("Год выпуска : " + car.yearofIssue);
                     System.out.println("ПОЗДРАВЛЯЕМ С ПОКУПКОЙ АВТОМОБИЛЯ!");
-                } else {
                 }
-
             }
         }
-
     }
 }
+
 
 
 
